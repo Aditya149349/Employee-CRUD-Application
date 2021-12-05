@@ -1,0 +1,13 @@
+server:
+  port:8081
+cloud:
+  aws:
+    region:
+      static: us-east-1
+      auto: false
+    credentials:
+      access-key: access-id
+      secret-key: secret-key
+    end-point:
+      uri: http://localhost:4566/000000000000/employeeTest
+
